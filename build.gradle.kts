@@ -1,15 +1,14 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-    alias(libs.plugins.kotlin.compose)
 }
 
 android {
-    namespace = "com.example.goukmregister"
+    namespace = "com.example.optionuser"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.goukmregister"
+        applicationId = "com.example.optionuser"
         minSdk = 25
         targetSdk = 34
         versionCode = 1
